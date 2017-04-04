@@ -1,1 +1,2 @@
 # LearnVestQuiz
+A simple project to explore the delivery of dynamic quizzes. The key here is the flexibility to control how the app flows page to page from the server-side, so that they can continually evolve the content without having to force users to update the app. Without having a web server, and not being able to easily mock one within the given timeframe of three hours. I created a provider that delivered html data representing pages of the quiz. Each page collects the user inpur and delivers that back to the WebView using the Javascript bridge.
